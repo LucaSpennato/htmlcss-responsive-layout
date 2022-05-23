@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile first */
+
+/* common */
+
+
+
+/* breakpoint Tablet: 768px*/
+
+@media all and (min-width: 768px){
+
+}
+
+/* breakpoint Desktop: 992px */
+
+@media all and (min-width: 992px){
+
+}
+
+/* breakpoint Large Desktop:  1200px */
+
+@media all and (min-width: 1200px){
+
+}
