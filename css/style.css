@@ -31,6 +31,10 @@ section:nth-child(even){
     justify-content: space-between;
 }
 
+.f-jc{
+    justify-content: center;
+}
+
 .f-cl{
     flex-direction: column;
 }
@@ -47,6 +51,11 @@ section:nth-child(even){
     border-radius: 1.5rem;
     padding: 2rem;
 }
+
+.card.rounder{
+    border-radius: 3rem;
+    /* card attribute, it makes it rounder */
+} 
 
 img{
     width: 100%;
@@ -68,10 +77,22 @@ a{
     display: inline-block;
 }
 
-h3, p, .card, .btn-wide, .btn-small{
+/* text common attributes */
+h5,
+h3,
+h2,
+p,
+.card,
+.btn-wide,
+.btn-small{
     margin-bottom: 1.7rem;
     font-weight: bold;
     line-height: 1.75rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    line-height: 3rem;
 }
 
 h3{
@@ -192,13 +213,36 @@ ul{
     width: 1.2rem;
 }
 
+/* section 3 */
 
+.testimonials{
+    text-align: center;
+}
 
-        
+.testimonials h2{
+    color: var(--clr-fix-liliac);
+}
 
+.card.partner{
+    background-color: var(--clr-fix-liliac);
+}
 
+.part-img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
 
+.part-img img{
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
 
+.testimonials .description{
+    color: white;
+}
 
 
 
