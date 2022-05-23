@@ -66,7 +66,7 @@ a{
 }
 
 .btn-small{
-    padding: .625rem;
+    padding: .3rem 1rem;
     border-radius: 2rem;
     display: inline-block;
 }
@@ -154,11 +154,11 @@ ul{
 .our-work .btn-wide{
     background-color: var(--clr-fix-blue);
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: .1875rem;
 }
 
 .our-work img{
-    margin-bottom: -10px;
+    margin-bottom: -0.625rem;
 }
 
 
@@ -228,8 +228,8 @@ ul{
 }
 
 .part-img{
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     display: inline-block;
     margin-bottom: 2rem;
 }
@@ -268,13 +268,136 @@ ul{
 .benefits .btn-wide{
     background-color: var(--clr-fix-liliac);
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: .1875rem;
     margin-bottom: 0;
 }
 
 .benefits p{
     color: var(--clr-fix-gray);
 }
+
+/* section 5 */
+.about-us{
+    flex-direction: column;
+    gap: 2rem;
+}
+.about-us h2{
+    color: var(--clr-fix-liliac);
+}
+
+.about-us p{
+    color: var(--clr-fix-gray);
+}
+
+.about-us .img-cont{
+    width: 12.5rem;
+    height: 12.5rem;
+    position: relative;
+    display: block;
+}
+
+.about-us img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.about-us .small-cont i[class*="fa-quote-left"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--clr-fix-liliac);
+    font-size: 5rem;
+}
+
+.about-me{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--clr-fix-liliac);
+    margin: 1.25rem 0;
+}
+
+.about-us .btn-small{
+    background-color: var(--clr-fix-liliac);
+    color: white;
+    word-spacing: .1rem;
+}
+
+/* section 6 */
+
+.get-started{
+    text-align: center;
+}
+
+.get-started h5{
+    color: lightgray;
+    font-size: 1.25rem;
+    font-weight: 100;
+    letter-spacing: .1875rem;
+}
+
+.get-started h3, .get-started p, .copyright span, li{
+    color: white;
+}
+
+.get-started p{
+    font-weight: 100;
+}
+
+.get-started .itsfree{
+    font-size: 3.5rem;
+    color: gold;
+    font-weight: bolder;
+    margin-bottom: 1.7rem;
+}
+
+.get-started .btn-huge{
+    padding: 1.25rem 4rem;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    font-weight: bold;
+    background-color: white;
+    color: var(--clr-fix-liliac);
+    border-radius: 2rem;
+    display: inline-block;
+    margin-bottom: 1.7rem;
+}
+
+.copyright i{
+    font-size: .3125rem;
+    line-height: 2rem;
+    vertical-align: middle;
+}
+
+.copyright span:last-child a{
+    text-decoration: underline;
+    color: white;
+}
+
+.copyright{
+    margin-bottom: 1.7rem;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+
+footer div:first-child{
+    margin: 0 0 3rem 0;
+}
+
+footer .credits a{
+    text-decoration: underline;
+}
+
+
+
+
 
 
 
