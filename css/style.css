@@ -14,6 +14,10 @@ section{
     padding-top: 3.5rem;
 }
 
+section:nth-child(even){
+    background-color: var(--clr-fix-liliac);
+}
+
 .container{
     width: 100%;
     margin: 0 auto;
@@ -64,6 +68,16 @@ a{
     display: inline-block;
 }
 
+h3, p, .card, .btn-wide, .btn-small{
+    margin-bottom: 1.7rem;
+    font-weight: bold;
+    line-height: 1.75rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
 /* colors */
 :root{
     --clr-fix-blue: #0084FD;
@@ -78,7 +92,7 @@ header{
 }
 
 .top-bar{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     padding: 1rem 1.3rem;
@@ -104,7 +118,6 @@ ul{
 
 .our-work .card h3{
     color: var(--clr-fix-blue);
-    font-size: 1.5rem;
 }
 
 .our-work .card p{
@@ -124,15 +137,9 @@ ul{
 }
 
 .our-work img{
-    margin-bottom: -5px;
+    margin-bottom: -10px;
 }
 
-.our-work .card h3,
-.our-work .card p,
-.our-work .card .btn-wide{
-    margin-bottom: 1.7rem;
-    font-weight: bold;
-}
 
 .our-work .card:not(:first-child) i{
     font-size: 3.75rem;
@@ -143,6 +150,54 @@ ul{
 .our-work .card:not(:first-child){
     text-align: center;
 }
+
+/* section 2 */
+.planning img{
+    margin-bottom: 2rem;
+}
+
+.planning .card:first-child{
+    color: white;
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+.planning .card:first-child h3{
+    margin-bottom: 3rem;
+}
+
+.planning .card:nth-child(2){
+    background-color: white;
+    text-align: center;
+}
+
+.planning .card:nth-child(2) p{
+    font-style: italic;
+}
+
+.planning a{
+    background-color: var(--clr-fix-liliac);
+    padding: 1.2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/* chiedere per bottone perfettamente circolare */
+
+.planning i{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+
+
+        
+
+
+
 
 
 
