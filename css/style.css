@@ -72,7 +72,7 @@ a{
 }
 
 .btn-wide{
-    padding: .625rem 2.5rem;
+    padding: .4rem 3rem;
     border-radius: 2rem;
     display: inline-block;
 }
@@ -244,8 +244,37 @@ ul{
     color: white;
 }
 
+/* section 4 */
 
+.benefits h2{
+    color: white;
+    text-align: center;
+}
 
+.benefits .card{
+    background-color: white;
+}
+
+.benefits .num-mark{
+    font-size: 3.125rem;
+    margin-bottom: 2.5rem;
+}
+
+.benefits .num-mark,
+.benefits h3{
+    color: var(--clr-fix-liliac);
+}
+
+.benefits .btn-wide{
+    background-color: var(--clr-fix-liliac);
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.benefits p{
+    color: var(--clr-fix-gray);
+}
 
 
 
