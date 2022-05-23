@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Mobile first */
-
 /* common */
-
 section{
     padding: 1rem;
 }
@@ -15,6 +12,32 @@ section{
 .container{
     width: 100%;
 }
+
+.f{
+    display: flex;
+}
+
+.f-sb{
+    justify-content: space-between;
+}
+
+.f-cl{
+    justify-content: column;
+}
+
+.f-wr{
+    flex-wrap: wrap;
+}
+
+/* colors */
+:root{
+    --clr-fix-blue: #0084FD;
+    --clr-fix-lblue: #B5DDFF;
+    --clr-fix-liliac: #9792E4;
+}
+
+/* Mobile first */
+
 
 
 /* breakpoint Tablet: 768px*/
