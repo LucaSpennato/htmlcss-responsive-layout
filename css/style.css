@@ -29,6 +29,14 @@ section{
     flex-wrap: wrap;
 }
 
+.f-ali-c{
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+
 /* colors */
 :root{
     --clr-fix-blue: #0084FD;
@@ -37,6 +45,29 @@ section{
 }
 
 /* Mobile first */
+header{
+    margin-bottom: 3.75rem;
+}
+
+.top-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 1.3rem;
+    background-color: var(--clr-fix-blue);
+}
+
+ul{
+    display: none;
+}
+
+.right-content i{
+    color: white;
+    font-size: 1.75rem;
+}
+
+
+/* 1st section */
 
 
 
