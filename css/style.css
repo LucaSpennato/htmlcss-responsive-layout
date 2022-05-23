@@ -96,9 +96,6 @@ ul{
 
 
 /* 1st section */
-.our-work{
-    flex-direction: column;
-}
 
 .our-work .card{
     margin-bottom: 2rem;
