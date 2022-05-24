@@ -435,6 +435,7 @@ footer .credits a{
 
     /* section 3 */
     .card.partner{
+        text-align: start;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -445,7 +446,6 @@ footer .credits a{
 
     /* section 4 */
 
-    
     /* solution 1 */
     /* .benefits{
         text-align:center;
@@ -480,6 +480,28 @@ footer .credits a{
         margin-bottom: 0;
         width: calc(100% / 2 - 1rem);
     }
+
+    /* section 5 */
+
+    .about-us{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .about-us h2{
+        font-size: 4rem;
+    }
+
+    .about-us .large-cont{
+        width: 50%;
+    }
+
+    .about-us .small-cont{
+        width: 30%;
+    }
+
+
+
 }
 
 /* breakpoint Desktop: 992px */
