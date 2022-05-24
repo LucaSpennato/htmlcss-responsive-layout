@@ -54,7 +54,8 @@ section:nth-child(even){
 
 .card.rounder{
     border-radius: 3rem;
-    /* card attribute, it makes it rounder */
+    /* card attribute, 
+    it makes it rounder */
 } 
 
 img{
@@ -131,9 +132,13 @@ ul{
 
 
 /* 1st section */
+.our-work{
+    flex-direction: column;
+    gap: 2rem;
+}
 
 .our-work .card{
-    margin-bottom: 2rem;
+    margin: 0;
     background-color: var(--clr-fix-lblue);
 }
 
