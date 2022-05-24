@@ -422,6 +422,17 @@ footer .credits a{
         width: calc(100% / 3 - 1.5rem);
     }
 
+    /* section 2 */
+
+    .planning img{
+        margin-bottom: 3rem;
+    }
+
+    .planning h2{
+        font-size: 4rem;
+        margin: 5rem 0;
+    }
+
     /* section 3 */
     .card.partner{
         flex-direction: row;
@@ -432,6 +443,43 @@ footer .credits a{
         margin-right: 2rem;
     }
 
+    /* section 4 */
+
+    
+    /* solution 1 */
+    /* .benefits{
+        text-align:center;
+    }
+
+    .benefits .card{
+        margin: 1rem;
+        width: calc(100% / 2 - 3rem);
+        display: inline-block;
+    }
+
+    .benefits h3,
+    .benefits .num-mark,
+    .benefits p,
+    .benefits a{
+        text-align: start;
+    }  */
+    /* to make this work, (it works good 
+    with it anyway) remove div.ben-card,
+     it's useless */
+   
+    /* solution 2 */
+    .ben-card{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .ben-card .card{
+        margin-bottom: 0;
+        width: calc(100% / 2 - 1rem);
+    }
 }
 
 /* breakpoint Desktop: 992px */
