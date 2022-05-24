@@ -230,6 +230,8 @@ ul{
 
 .card.partner{
     background-color: var(--clr-fix-liliac);
+    flex-direction: column;
+    align-items: center;
 }
 
 .part-img{
