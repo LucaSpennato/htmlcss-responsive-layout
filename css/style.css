@@ -8,6 +8,10 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+main{
+    padding-top: 5rem;
+}
+
 /* common */
 section{
     padding: 2rem;
@@ -110,27 +114,39 @@ h3{
 
 /* Mobile first */
 header{
-    margin-bottom: 3.75rem;
+    width: 100%;
+    position: fixed;
     background-color: var(--clr-fix-blue);
-
 }
 
 .top-bar{
-    /* position: fixed; */
     top: 0;
+    margin: 0 auto;
+    background-color: var(--clr-fix-blue);
     width: 100%;
     padding: 1rem 1.3rem;
 }
 
-ul{
+.top-bar ul{
     display: none;
+    list-style: none;    
+}
+
+.top-bar ul li{
+    display: inline;
+    margin: 0 .5rem;
+}
+
+.top-bar ul li .btn-small{
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
 }
 
 .right-content i{
     color: white;
     font-size: 1.75rem;
 }
-
 
 /* 1st section */
 .our-work{
@@ -308,7 +324,7 @@ ul{
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .about-us .small-cont i[class*="fa-quote-left"]{
@@ -530,9 +546,18 @@ footer .credits a{
 
 @media all and (min-width: 992px){
     /* common */
-    .container{
+    .container, .top-bar{
         max-width: 900px;
         width: 100%;
+    }
+
+    /* nav list appear */
+    header .top-bar ul{
+        display: inline-block;
+    }
+
+    #hamb-menu{
+        display: none;
     }
 
     /* section 1 */
