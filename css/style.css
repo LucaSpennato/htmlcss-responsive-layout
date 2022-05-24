@@ -137,6 +137,10 @@ header{
     margin: 0 .5rem;
 }
 
+.top-bar ul li a{
+    color: white;
+}
+
 .top-bar ul li .btn-small{
     background-color: white;
     color: black;
