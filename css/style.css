@@ -152,6 +152,8 @@ ul{
 }
 
 .our-work .card:first-child{
+    display: flex;
+    flex-direction: column;
     padding-bottom: 0;
 }
 
@@ -162,8 +164,8 @@ ul{
 }
 
 .our-work img{
-    margin-bottom: -0.625rem;
     width: 12.5rem;
+    align-self: center;
 }
 
 
@@ -423,6 +425,10 @@ footer .credits a{
         width: calc(100% * 2 / 3 - 0.75rem);
     }
 
+    .our-work img{
+        align-self: flex-start;
+    }
+
     .our-work .card:not(:first-child){
         width: calc(100% / 3 - 1.5rem);
     }
@@ -511,7 +517,6 @@ footer .credits a{
     }
 
     .get-started .itsfree{
-        /* line-height: 120%; */
         font-size: var(--font-fix-imptitle);
     }
 
