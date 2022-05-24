@@ -408,6 +408,11 @@ footer .credits a{
 /* breakpoint Tablet: 768px*/
 
 @media all and (min-width: 768px){
+    /* common */
+    :root{
+        --font-fix-imptitle: 4rem; 
+    }
+
     /* section 1 */
     .our-work{
         flex-direction: row;
@@ -429,7 +434,7 @@ footer .credits a{
     }
 
     .planning h2{
-        font-size: 4rem;
+        font-size: var(--font-fix-imptitle);
         margin: 5rem 0;
     }
 
@@ -489,7 +494,7 @@ footer .credits a{
     }
 
     .about-us h2{
-        font-size: 4rem;
+        font-size:var(--font-fix-imptitle);
     }
 
     .about-us .large-cont{
@@ -500,10 +505,22 @@ footer .credits a{
         width: 30%;
     }
 
+    /* section 6 */
+    .get-started{
+        width: 70%;
+    }
 
+    .get-started h3, .get-started .itsfree{
+        line-height: 120%;
+        font-size: var(--font-fix-imptitle);
+    }
 
+    /* footer */
+    .foot-txt{
+        width: 50%;
+        display: inline-block;
+    }
 }
-
 /* breakpoint Desktop: 992px */
 
 @media all and (min-width: 992px){
