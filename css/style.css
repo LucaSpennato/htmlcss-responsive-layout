@@ -529,11 +529,55 @@ footer .credits a{
 /* breakpoint Desktop: 992px */
 
 @media all and (min-width: 992px){
+    /* common */
+    .container{
+        max-width: 900px;
+        width: 100%;
+    }
 
-}
+    /* section 1 */
+    .our-work .card:first-child{
+        flex-direction: row;
+    }
+
+    .our-work .card:first-child img{
+        align-self: flex-end;
+    }
+
+    .our-work .card:not(:first-child) p{
+        margin-bottom: 0;
+    }
+
+    /* section 2 */
+    .planning{
+        display: flex;
+        gap: 3.5rem;
+    }
+
+    .planning .card:nth-child(2){
+        align-self: flex-end;
+    }
+    .planning .card:nth-child(2) img{
+        width: 50%;
+    }
+
+    /* section 4 */
+    .ben-card .card{
+        width: calc(100% / 3 - 1.5rem);
+    }
+
+    /* section 6 */
+    .get-started{
+        width: 40%;
+    }
+
+    /* footer */
+    .foot-txt{
+        width: 30%;
+    }
+
+}   
 
 /* breakpoint Large Desktop:  1200px */
 
-@media all and (min-width: 1200px){
-
-}
+@media all and (min-width: 1200px){}
