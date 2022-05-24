@@ -510,8 +510,8 @@ footer .credits a{
         width: 70%;
     }
 
-    .get-started h3, .get-started .itsfree{
-        line-height: 120%;
+    .get-started .itsfree{
+        /* line-height: 120%; */
         font-size: var(--font-fix-imptitle);
     }
 
